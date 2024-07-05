@@ -1,0 +1,23 @@
+/* Custom styles */
+.container {
+    margin-top: 20px;
+}
+
+#crypto-list, #favorites-list {
+    margin-top: 20px;
+}
+
+.loading {
+    height: 50px;
+    background: #f0f0f0;
+    animation: shimmer 1s linear infinite;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -1000px 0;
+    }
+    100% {
+        background-position: 1000px 0;
+    }
+}
